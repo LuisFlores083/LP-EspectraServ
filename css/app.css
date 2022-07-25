@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Oldenburg&family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Splash&display=swap');
+@font-face {
+    font-family: 'social';
+    src: url('../fonts/SocialMedia-ZxpB.ttf');
+}
+@font-face {font-family: 'social';src: url('../fonts/SocialMedia-ZxpB.ttf');}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap');
+/*
+font-family: 'Bebas Neue', cursive;
+font-family: 'Yusei Magic';
+font-family: 'Montserrat', sans-serif;
+ font-family: 'Indie Flower';
+ font-family: 'Quicksand';
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+   font-size: 16px;
+}
+body{
+    font-size: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*html{font-size: 16px;scroll-behavior: smooth;}*/
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Quicksand';
+}
+
+h1{
+    font-size: 3rem; 
+}
+
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.8rem;
+}
+p{
+    font-size: 1.4rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contenido{
+    padding: 0 20px;
+}
+
+#banner_content{
+    display:flex;
+}
+
+#banner{
+    background-color: rgba(57,247,203,255);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    z-index: -1;
+}
+
+#cabecera{
+    height: 100px;
+}
+    #cabecera div{
+        position: absolute;
+        vertical-align: middle;
+    }
+    #cabecera span{
+        vertical-align: middle;
+        color: rgb(0, 0, 0);
+        font-size: 1.2rem;
+    }
+
+    #logo{
+        left: 0;
+        margin: 15px 40px;
+        border-radius: 50%;
+    }
+    #logo span{
+        display: none;
+    }
+
+        #logo img{
+            width: 70px;
+            height: 70px;
+            margin-right: 10px;
+        }
+
+    #links{
+        text-align: end;
+        right: 0;
+        margin: 32px 40px;
+    }
+
+    #principal{
+        display: block;
+    }
+
+    #text_fond{
+        position:absolute;
+        text-align: end;
+        right: 0;
+        color: white;
+        top: 175px;
+        margin: auto;
+    }
+        #text_fond h2{
+            font-size: 1.2rem;
+
+        }
+        #text_fond p{
+            font-size: 0.8rem;
+        }
+
+    #text_prin{
+        display: none;
+        padding: 0 20px 0 0;
+    }
+
+    #formulario{
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 20px;
+        margin: 10px 0px;
+        padding: 30px 40px 20px 40px;
+        height: 70vh;
+    }
+        #formulario h2{
+            text-align: center;
+        }
+
+        .form-control{
+            margin: 15px 0px;
+        }
+
+    .content_entradas label{
+        display: none;
+    }
+
+    .btn{
+        display: block;
+        margin: 0 auto;
+    }
+    #servicios{
+        margin-bottom: 100px;
+    }
+
+    #servicios article{
+        display: inline-block;
+        width: 45%;
+        border: 1px solid black;
+        border-radius: 5px;
+        margin: 2.5%;
+    }
+
+    #servicios img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .marco div{
+        margin: 10px 0;
+        display: none;
+    }
+    
+    .servText{
+        font-size: 1rem;
+        margin: 0;
+    }
+    
+    .ganancia{
+        font-size: 0.8rem;
+    }
+
+    #servicios h3{
+        font-size: 1rem;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+        margin: 10px 0;
+        text-align: right;
+        padding: 5px 10px;
+    }
+
+    .marco h3{
+        background-color: #39f7cc;
+    }
+
+    .sombra:hover{
+        box-shadow: 5px 5px #888888;
+    }
+
+    .boton{
+        background-color: #0d6efd;
+        color: white;
+        border-radius: 7px;
+        font-size: 1rem;
+        padding: 4px 15px;
+        margin: 0px 10px 10px 10px;
+        border: 1px solid #0d6efd;
+        display: inline-block;  
+    }
+    .boton:hover{
+        background-color: #0a48a5;
+        border: 1px solid #0a48a5;
+        color: white;
+    }
+
+    #sobreServicios{
+        margin-top: 50px;
+        
+    }
+    #sobreServicios{
+        margin-top: 50px;
+        
+    }    
+
+    #sobre{
+        text-align: center;
+        background-color: #39f7cc;
+        margin: 100px 0;
+        padding: 50px 0;
+        
+    }
+
+    #sobre figcaption{
+        display: none;
+    }
+    .contenedor{
+        text-align: center;
+        background-color: white;
+    }
+
+    .contenedor figcaption{
+        display: none;
+    }
+
+footer{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 20px 5%;
+}
+
+#contacto div{
+    display: inline-block;
+    width: 33%;
+    vertical-align: middle;
+}
+
+#contacto p{
+    font-size: 1rem;
+}
+
+#a_social a{
+    font-size: 1.5rem;
+    margin: 10px;
+    color: white;
+    font-family: social, cursive;
+}
+
+#f_social a{
+    font-size: 1.2rem;
+    margin: 20px;
+    color: rgb(0, 0, 0);
+    font-family: social, cursive;
+}
+#f_social {
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+    

@@ -1,0 +1,32 @@
+@media screen and (min-width: 1200px) {
+    #servicios{
+        margin-top: 100px;   
+    }
+
+    #cabecera span{
+        font-size: 1.8rem;
+    }
+
+    .form-control{
+        margin: 20px 0px;
+    }
+
+    .btn{
+        display: block;
+        margin: 10px auto;
+    }
+
+    #f_social a{
+        font-size: 1.6rem;
+    }
+
+    #contacto p{
+        font-size: 1.5rem;
+    }
+    
+    #a_social a{
+        font-size: 2.2rem;
+        margin: 20px;
+    }
+    
+}

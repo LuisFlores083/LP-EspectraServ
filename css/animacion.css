@@ -1,0 +1,13 @@
+img, figcaption, .marco{
+    transition: all 1s ease-in-out;
+}
+
+
+#texto{
+    animation: mueveTexto 2s linear 1 ;
+}
+
+#mensaje{
+    animation: mensaje 4s linear 1;    
+}
+

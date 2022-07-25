@@ -1,0 +1,56 @@
+@media screen and (min-width: 576px) {
+    #cabecera span{
+        font-size: 1.4rem;
+    }
+    #logo{
+        margin: 10px 40px;
+    }
+
+    #logo span{
+        display: inline-block;
+    }
+
+    #logo img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .content_entradas{
+        display: inline-block;
+        width: 100%;
+    }
+
+    .content_entradas label{
+        display: inline-block;
+        width: 35%;
+        font-size: 1rem;
+    }
+
+    #text_fond{
+        top: 245px;
+    }
+
+        #text_fond h2{
+            font-size: 1.6rem;
+
+        }
+        #text_fond p{
+            font-size: 1.2rem;
+        }
+
+    .form-control{
+        width: 65%;
+        display: inline-block;
+    }
+
+    #contacto p{
+        font-size: 1.2rem;
+    }
+    
+    #a_social a{
+        font-size: 1.8rem;
+        margin: 20px;
+    }
+    
+
+}
