@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 h1{
-    font-size: 3rem; 
+    font-size: 3rem;
 }
 
 h2{
@@ -178,12 +178,12 @@ a{
         margin: 10px 0;
         display: none;
     }
-    
+
     .servText{
         font-size: 1rem;
         margin: 0;
     }
-    
+
     .ganancia{
         font-size: 0.8rem;
     }
@@ -213,7 +213,7 @@ a{
         padding: 4px 15px;
         margin: 0px 10px 10px 10px;
         border: 1px solid #0d6efd;
-        display: inline-block;  
+        display: inline-block;
     }
     .boton:hover{
         background-color: #0a48a5;
@@ -223,19 +223,19 @@ a{
 
     #sobreServicios{
         margin-top: 50px;
-        
+
     }
     #sobreServicios{
         margin-top: 50px;
-        
-    }    
+
+    }
 
     #sobre{
         text-align: center;
         background-color: #39f7cc;
         margin: 100px 0;
         padding: 50px 0;
-        
+
     }
 
     #sobre figcaption{
@@ -285,6 +285,18 @@ footer{
     text-align: center;
 }
 
+#f{
+  color: #385898;
+}
+#i{
 
+  color: pink;
+}
 
-    
+#e{
+  color: red;
+}
+
+#w{
+  color: green;
+}
