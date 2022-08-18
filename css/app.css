@@ -176,7 +176,7 @@ a{
 
     .marco div{
         margin: 10px 0;
-        display: none;
+        /*display: none;*/
     }
 
     .servText{
